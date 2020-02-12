@@ -1,0 +1,9 @@
+.imgy {
+    width: 20%;
+  }
+  
+  @media all and (max-width: 30em) {
+    .imgy {
+      width: 50%
+    }
+  }
