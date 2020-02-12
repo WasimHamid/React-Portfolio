@@ -7,10 +7,11 @@ import About from "../components/About"
 import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
-// import "../components/js/scroll"
-// import "../components/js/responsive-nav"
-// import "../components/js/fixed-responsive-nav"
-// import "../components/js/fastclick"
+
+import "../components/js/scroll"
+import "../components/js/responsive-nav"
+import "../components/js/fixed-responsive-nav"
+import "../components/js/fastclick"
 
 class App extends React.Component {
     render () {
