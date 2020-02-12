@@ -1,0 +1,16 @@
+@media all and (min-width: 30em) {
+  .notMobile {
+    visibility: hidden;
+  }
+}
+
+.imgy {
+  width: 20%;
+}
+
+@media all and (max-width: 30em) {
+  .imgy {
+    width: 50%
+  }
+}
+
