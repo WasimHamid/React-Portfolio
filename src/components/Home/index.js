@@ -1,6 +1,6 @@
 import React from "react";
 
-// import Pdf from "../Documents/WasimHamidCV.pdf";
+import Pdf from "../Documents/WasimHamidCV.pdf";
 import css from "./Home.module.css";
 
 
