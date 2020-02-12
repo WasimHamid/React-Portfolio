@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/styleform.css"
 
 class Contact extends React.Component {
     render () {
