@@ -2,8 +2,9 @@ import React from "react";
 import "./css/styles.css"
 
 import Home from "../components/Home"
-import Project from "../components/Project"
+import Project from "./Hobbies"
 import About from "../components/About"
+import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
                 <li className="menu-item active"><a href="#Home" data-scroll>Home</a></li>
                 <li className="menu-item"><a href="#Project-Page" data-scroll>Project Page</a></li>
                 <li className="menu-item"><a href="#About-Me" data-scroll>About Me</a></li>
+                <li className="menu-item"><a href="#Hobbies-Page" data-scroll>Hobbies Page</a></li>
                 <li className="menu-item"><a href="#Contact" data-scroll>Contact Us</a></li>
             </ul>
         </nav>
@@ -27,6 +29,7 @@ class App extends React.Component {
         <Home />
         <Project />
         <About />
+        <Hobbies />
         <Contact />
 
     </main>
