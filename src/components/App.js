@@ -13,9 +13,7 @@ class App extends React.Component {
     <>
     <header>
         <a href="#home" className="logo" data-scroll>Wasim Hamid</a>
-        <a href="#" className="nav-toggle" aria-hidden="false">
-        </a>
-        <nav className="nav-collapse">
+        <nav className="nav-collapse nav-toggle" aria-hidden="false">
             <ul>
                 <li className="menu-item active"><a href="#home" data-scroll>Home</a></li>
                 <li className="menu-item"><a href="#Project-Page" data-scroll>Project Page</a></li>
