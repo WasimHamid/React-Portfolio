@@ -7,16 +7,13 @@ class App extends React.Component {
     <>
       
     <header>
-        <a href="#home" className="logo" data-scroll>Playermade</a>
+        <a href="#home" className="logo" data-scroll>Wasim Hamid</a>
         <nav className="nav-collapse">
             <ul>
                 <li className="menu-item active"><a href="#home" data-scroll>Home</a></li>
-                <li className="menu-item"><a href="#Become-Member" data-scroll>Become a Member</a></li>
-                <li className="menu-item"><a href="#Movement-Screen" data-scroll>Movement Screen</a></li>
-                <li className="menu-item"><a href="#Specialist-Training" data-scroll>Specialist Training</a></li>
-                <li className="menu-item"><a href="#Abstract" data-scroll>Abstract</a></li>
+                <li className="menu-item"><a href="#Become-Member" data-scroll>Project Page</a></li>
+                <li className="menu-item"><a href="#Movement-Screen" data-scroll>About Me</a></li>
                 <li className="menu-item"><a href="#Contact" data-scroll>Contact Us</a></li>
-                <li className="menu-item"><a href="https://user.playermade.co.uk" data-scroll>Login</a></li> 
             </ul>
         </nav>
     </header>
@@ -24,7 +21,6 @@ class App extends React.Component {
     <main>
 
         <section id="home" data-module-id="screen">
-            <img src="./img/logo.png" alt="img" className="playermade" />
             <div className="text-content">
                 <p>Playermade is an exclusive training club that specializes in the delivery of sports related training specific to juniors</p>
             </div>
@@ -62,30 +58,8 @@ class App extends React.Component {
                         of injury. </p>
                     <p> Players, parents and coaches will receive instant feedback regarding the quality and capacity of the players movement, along with any recommendations, advice and next steps regarding future training options.</p>
                     <p> Book Your Screening Now!</p>
-                    <a href="https://user.playermade.co.uk/signup?productid=19">
-                        <button type="button" className="btn btn-success btn-lg">BUY NOW</button>
-                    </a>
                 </div>
 
-            </div>
-        </section>
-
-        <section id="Specialist-Training">
-            <div className="Training-text">
-                <p>With performance at the center of everything we do here, there is also an opportunity for individuals or sports teams who wish to access something even more bespoke and personalised to access something even more specific.</p>
-                <p>1:1 Training Provides the opportunity for players to focus their training in one or more specific areas:</p>
-                <p>&bull; Injury Prevention/Rehabilitation &bull; Speed and Explosiveness &bull; Reactiveness and Agility &bull; Endurance and Fitness</p>
-                <p>Skills; areas: &bull; Striking, kicking and punching &bull; Throwing and Bowling &bull; Any football related specific skill</p>
-                <h2>Team Training</h2>
-                <p>Complement your team training with this professional standard of performance based training. Experience a level of training that is relevant and expected from all major sports clubs around the world.</p>
-            </div>
-        </section>
-
-        <section id="Abstract">
-            <div className="Training-text">
-                <p>Sports players need technical, tactical, and physical skills in order to be successful.</p>
-                <p>Both team and individulaised training programs have often been seen to focus on the technique and tactics aspects of the sport, at the expense of physical resources and qualities required such as strength, speed agility, power and endurance.</p>
-                <p>To maintain fitness and a longstanding participation in sport also requires training to include prevention strategies as well as flexibility and mobility training.</p>
             </div>
         </section>
 
