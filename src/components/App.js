@@ -5,7 +5,6 @@ class App extends React.Component {
     render () {
   return (
     <>
-      
     <header>
         <a href="#home" className="logo" data-scroll>Wasim Hamid</a>
         <nav className="nav-collapse">
@@ -23,7 +22,6 @@ class App extends React.Component {
     <main>
 
         <section id="home" data-module-id="screen">
-            <img src="./img/logo.png" alt="img" className="playermade" />
             <div className="text-content">
                 <p>Playermade is an exclusive training club that specializes in the delivery of sports related training specific to juniors</p>
             </div>
@@ -61,9 +59,6 @@ class App extends React.Component {
                         of injury. </p>
                     <p> Players, parents and coaches will receive instant feedback regarding the quality and capacity of the players movement, along with any recommendations, advice and next steps regarding future training options.</p>
                     <p> Book Your Screening Now!</p>
-                    <a href="https://user.playermade.co.uk/signup?productid=19">
-                        <button type="button" className="btn btn-success btn-lg">BUY NOW</button>
-                    </a>
                 </div>
 
             </div>
