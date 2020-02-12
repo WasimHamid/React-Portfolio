@@ -101,10 +101,7 @@ class App extends React.Component {
     </main>
 
     <footer className="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.4957390967716!2d-1.1213161846456399!3d52.614885036946035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48776133a88e00b5%3A0xf97700213bbe7274!2sPlayermade!5e0!3m2!1sen!2suk!4v1579976390244!5m2!1sen!2suk"
-            width="100%" frameborder="0" style="border:0;" allowfullscreen="">
-    </iframe>
-        <p>&copy; Playermade</p>
+        <p>Wasim Hamid 2020</p>
     </footer>
     </>
     );
