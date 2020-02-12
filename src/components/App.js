@@ -23,7 +23,7 @@ class App extends React.Component {
     <main>
 
         <section id="home" data-module-id="screen">
-            <img src="./img/logo.png" className="playermade" />
+            <img src="./img/logo.png" alt="img" className="playermade" />
             <div className="text-content">
                 <p>Playermade is an exclusive training club that specializes in the delivery of sports related training specific to juniors</p>
             </div>
