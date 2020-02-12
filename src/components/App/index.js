@@ -107,11 +107,6 @@ class App extends React.Component {
     </iframe>
         <p>&copy; Playermade</p>
     </footer>
-
-    <script src="js/fastclick.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/responsive-nav.js"></script>
-    <script src="js/fixed-responsive-nav.js"></script>
     </>
     );
  }
