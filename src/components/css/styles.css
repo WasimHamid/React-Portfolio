@@ -310,15 +310,3 @@ header {
     height: 90px;
     margin: -50px auto 75px;
 }
-
-.vl {
-    border-left: 10px solid white;
-    height: 30px;
-    margin: -8px 0px 0px 100px;
-}
-
-@media screen and (max-width: 700px) {
-    .vl {
-        overflow: hidden;
-    }
-}
