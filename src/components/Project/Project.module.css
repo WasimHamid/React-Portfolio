@@ -7,3 +7,12 @@
       width: 50%
     }
   }
+
+  .info h1 h2 {
+    color: white;
+    font-size: 36px;
+  }
+
+  .a {
+    font-size: 30px;
+  }
