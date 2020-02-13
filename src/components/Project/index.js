@@ -26,9 +26,8 @@ function Project() {
   return (
     <>
       <section id="Project-Page">
-      <div>
+      <div className="info">
         <img src={avatar} alt="pic" className={css.imgy} />
-        <h1>{name}</h1>
         <h2>{username}</h2>
         <a href="https://github.com/WasimHamid?tab=repositories">
           {repos} Repos
