@@ -37,11 +37,14 @@ function Project() {
           {repos} Repos
         </a>
       </div>
+<<<<<<< HEAD
       <div>
         {data2.map(({}, index) => (
           <ProjectData />
         ))}
       </div>
+=======
+>>>>>>> 077b0bb086017287c8ec9a24cac75a67d8c6e874
       </section>
     </>
   );
