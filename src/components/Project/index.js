@@ -37,16 +37,6 @@ function Project() {
           {repos} Repos
         </a>
       </div>
-      <div className='work-content'>
-                {data2.projects.map((project)=>(
-                    <ProjectData key={project.id}
-                             title = {project.title}
-                             service = {project.service}
-                             imageSrc = {project.imageSrc}
-                             url={project.url}
-                     ></ProjectData>
-                ))}
-        </div>
       </section>
     </>
   );
