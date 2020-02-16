@@ -1,5 +1,4 @@
 import React from "react";
-import "../../public/css/styles.css"
 
 import Home from "../components/Home"
 import Project from "../components/Project"
