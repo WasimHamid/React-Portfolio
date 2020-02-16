@@ -1,7 +1,6 @@
 export default {
 projects:
     {
-     id: 1,
      title:'Client Website',
       service:'Redesign Website', // Add Your Service Type Here
      //Project Image - Add Your Project Image Here

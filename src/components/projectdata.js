@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
 
-class ProjectData extends Component {
-    state = {}
-    render() { 
-        return ( 
+const ProjectData = ({
+title = "Client Website",
+service = "Redesign Website",
+imageSrc = "https://images.unsplash.com/photo-1558104631-0fa41a8f6c20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+url = "http://playermade-wasim.netlify.com/"
+}) => {
+     return ( 
          <>
             <div className='project'>
-            <a href={this.props.url}>
-                <img src={this.props.imageSrc} alt={this.props.title}></img>
+            <a href={url}>
+                <img src={imageSrc} alt={title}></img>
             </a>
-                <h1>{this.props.title}</h1>
-                <span>{this.props.service}</span>
+                <h1>{title}</h1>
+                <span>{service}</span>
             </div> 
         </>
-            );
-    }
+     );
 }
  
 export default ProjectData;

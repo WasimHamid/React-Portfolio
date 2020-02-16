@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import css from "./Project.module.css";
 
+
 import data2 from "../data"
 import ProjectData from "../projectdata"
-
 
 function Project() {
   const [name, setName] = useState("");
@@ -37,16 +37,11 @@ function Project() {
           {repos} Repos
         </a>
       </div>
-      <div className='work-content'>
-                {data2.projects.map((project)=>(
-                    <ProjectData key={project.id}
-                             title = {project.title}
-                             service = {project.service}
-                             imageSrc = {project.imageSrc}
-                             url={project.url}
-                     ></ProjectData>
-                ))}
-        </div>
+      <div>
+        {data2.map(({}, index) => (
+          <ProjectData />
+        ))}
+      </div>
       </section>
     </>
   );
