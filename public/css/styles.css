@@ -300,3 +300,14 @@ header {
     height: 90px;
     margin: -50px auto 75px;
 }
+
+.project img{
+    width: 30em;  
+    height: 30em;
+}
+
+.work-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+}
