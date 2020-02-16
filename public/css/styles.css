@@ -277,16 +277,6 @@ header {
     color: black;
 }
 
-.playermade {
-    height: 18% !important;
-    max-height: 100% !important;
-    width: auto;
-    max-width: 100%;
-    position: absolute;
-    right: 0;
-    top: 55px;
-}
-
 
 .Member-text p {
     color: white;
