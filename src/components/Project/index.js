@@ -26,7 +26,7 @@ function Project() {
   return (
     <>
       <section id="Project-Page">
-      <div className="info">
+      <div>
         <img src={avatar} alt="pic" className={css.imgy} />
         <h1>{name}</h1>
         <h2>{username}</h2>
