@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import css from "./Project.module.css";
 
-import data from "../data"
+import data2 from "../data"
 import ProjectData from "../projectdata"
 
 
@@ -38,7 +38,7 @@ function Project() {
         </a>
       </div>
       <div className='work-content'>
-                {data.projects.map((project)=>(
+                {data2.projects.map((project)=>(
                     <ProjectData key={project.id}
                              title = {project.title}
                              service = {project.service}
