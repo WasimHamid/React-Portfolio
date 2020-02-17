@@ -302,12 +302,20 @@ header {
 }
 
 .project img{
-    width: 30em;  
-    height: 30em;
+    width: 20em;  
+    height: 16em;
 }
 
 .work-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2em;
+}
+
+#Project-Page {
+    background: white;
+}
+
+#Hobbies-Page {
+    background: white;
 }
