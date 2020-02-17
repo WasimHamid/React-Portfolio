@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import css from "./Project.module.css";
 
 
-import {  projects  } from "../constants"
+import {  projects  } from "../../constants"
 import ProjectData from "../projectdata"
 
 function Project() {
