@@ -37,14 +37,17 @@ function Project() {
           {repos} Repos
         </a>
       </div>
-<<<<<<< HEAD
       <div>
-        {data2.map(({}, index) => (
-          <ProjectData />
+        {data2.map(({url, title, imageSrc, title, service}, index) => (
+          <ProjectData 
+          key={index}
+          url={url}
+          title={title}
+          imageSrc={imageSrc}
+          service={service}
+          />
         ))}
       </div>
-=======
->>>>>>> 077b0bb086017287c8ec9a24cac75a67d8c6e874
       </section>
     </>
   );
