@@ -38,7 +38,7 @@ function Project() {
         </a>
       </div>
       <div>
-        {data2.map(({url, title, imageSrc, title, service}, index) => (
+        {data2.map(({url, title, imageSrc,service}, index) => (
           <ProjectData 
           key={index}
           url={url}
