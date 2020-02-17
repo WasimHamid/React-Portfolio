@@ -311,3 +311,7 @@ header {
     grid-template-columns: repeat(2,1fr);
     grid-gap: 2em;
 }
+
+#Project-Page {
+    background: white;
+}
