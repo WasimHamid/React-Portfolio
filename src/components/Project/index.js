@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import css from "./Project.module.css";
 
 
-import data2 from "../data"
+import {  projects  } from "../data"
 import ProjectData from "../projectdata"
 
 function Project() {
@@ -38,7 +38,7 @@ function Project() {
         </a>
       </div>
       <div>
-        {data2.map(({url, title, imageSrc,service}, index) => (
+        {projects.map(({url, title, imageSrc,service}, index) => (
           <ProjectData 
           key={index}
           url={url}

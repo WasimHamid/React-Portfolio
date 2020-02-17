@@ -1,5 +1,4 @@
-export default {
-projects:
+export default projects = [
     {
      title:'Client Website',
       service:'Redesign Website', // Add Your Service Type Here
@@ -8,4 +7,4 @@ projects:
       //Project URL - Add Your Project Url Here
       url:'http://playermade-wasim.netlify.com/'
      }
-}
+]
