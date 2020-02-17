@@ -1,4 +1,4 @@
-export default projects = [
+export const projects = [
     {
      title:'Client Website',
       service:'Redesign Website', // Add Your Service Type Here
