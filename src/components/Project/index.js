@@ -30,12 +30,12 @@ function Project() {
     <>
       <section id="Project-Page">
       <div>
-        <img src={avatar} alt="pic" className={css.imgy} />
+        <a href="https://github.com/WasimHamid?tab=repositories">
+          <img src={avatar} alt="pic" className={css.imgy} />
+        </a>
         <h1>{name}</h1>
         <h2>{username}</h2>
-        <a href="https://github.com/WasimHamid?tab=repositories">
-          {repos} Repos
-        </a>
+        <h1>{repos} Repos</h1>
       </div>
       <div>
         {projects.map(({url, title, imageSrc,service}, index) => (
