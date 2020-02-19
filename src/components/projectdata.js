@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import image from "../img/Playermade.png"
 
 const ProjectData = ({
 title = "Client Website",
 service = "Redesign Website",
-imageSrc = "Playermade.png",
+imageSrc = image,
 url = "http://playermade-wasim.netlify.com/"
 }) => {
      return ( 
