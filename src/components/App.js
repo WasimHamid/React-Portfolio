@@ -1,5 +1,5 @@
 import React from "react";
-import { stack as Menu } from 'react-burger-menu'
+import { reveal as Menu } from 'react-burger-menu'
 
 import Home from "../components/Home"
 import Project from "../components/Project"
