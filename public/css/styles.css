@@ -34,7 +34,7 @@ a:hover {
     display: block;
 }
 
-. nav-toggle:before {
+.nav-toggle:before {
     color: #fff; 
     font: normal 40px/55px; 
     text-transform: none; 
