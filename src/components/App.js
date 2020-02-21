@@ -26,11 +26,11 @@ class App extends React.Component {
     <header>
         <a href="#home" className="logo" data-scroll>Wasim Hamid</a>
         <Menu>
-            <a href="#home" data-scroll>Home</a>
-            <a href="#Project-Page" data-scroll>Project Page</a>
-            <a href="#About-Me" data-scroll>About Me</a>
-            <a href="#Hobbies-Page" data-scroll>Hobbies Page</a>
-            <a href="#Contact" data-scroll>Contact Us</a>
+            <a className="menu-item" href="#home" data-scroll>Home</a>
+            <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
+            <a className="menu-item" href="#About-Me" data-scroll>About Me</a>
+            <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
+            <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>
             <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
       </Menu>
     </header>
