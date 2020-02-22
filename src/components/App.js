@@ -11,6 +11,7 @@ class App extends React.Component {
   return (
     <>
     <header>
+        <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
         <nav class="nav-collapse">
             <ul>
                 <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
