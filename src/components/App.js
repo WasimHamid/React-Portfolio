@@ -14,13 +14,10 @@ class App extends React.Component {
         <nav class="nav-collapse">
             <ul>
                 <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
-                <li class="menu-item"><a href="#Become-Member" data-scroll>Become a Member</a></li>
-                <li class="menu-item"><a href="#Movement-Screen" data-scroll>Screen</a></li>
-                <li class="menu-item"><a href="#Specialist-Training" data-scroll>Train</a></li>
-                <li class="menu-item"><a href="#Train2" data-scroll>Team Training</a></li>
-                <li class="menu-item"><a href="#Abstract" data-scroll>Abstract</a></li>
-                <li class="menu-item"><a href="#Testimonials" data-scroll>Testimonials</a></li>
-                <li class="menu-item"><a href="#Contact" data-scroll>Contact</a></li>
+                <li class="menu-item"><a className="menu-item" href="#Project-Page" data-scroll>Project Page</a></li>
+                <li class="menu-item"><a className="menu-item" href="#About-Me" data-scroll>About Me</a></li>
+                <li class="menu-item"><a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a></li>
+                <li class="menu-item"><a className="menu-item" href="#Contact" data-scroll>Contact Us</a></li>
             </ul>
         </nav>
     </header>
