@@ -1,5 +1,4 @@
 import React from "react";
-import { reveal as Menu } from 'react-burger-menu'
 
 import Home from "../components/Home"
 import Project from "../components/Project"
@@ -8,23 +7,22 @@ import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
 class App extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-  }
-
-    render () {
+ render () {
   return (
     <>
     <header>
-        <a href="#home" className="logo" data-scroll>Wasim Hamid</a>
-        <Menu>
-            <a className="menu-item" href="#home" data-scroll>Home</a>
-            <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
-            <a className="menu-item" href="#About-Me" data-scroll>About Me</a>
-            <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
-            <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>
-            <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-      </Menu>
+        <nav class="nav-collapse">
+            <ul>
+                <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
+                <li class="menu-item"><a href="#Become-Member" data-scroll>Become a Member</a></li>
+                <li class="menu-item"><a href="#Movement-Screen" data-scroll>Screen</a></li>
+                <li class="menu-item"><a href="#Specialist-Training" data-scroll>Train</a></li>
+                <li class="menu-item"><a href="#Train2" data-scroll>Team Training</a></li>
+                <li class="menu-item"><a href="#Abstract" data-scroll>Abstract</a></li>
+                <li class="menu-item"><a href="#Testimonials" data-scroll>Testimonials</a></li>
+                <li class="menu-item"><a href="#Contact" data-scroll>Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
 
