@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navigation } from "react-mdl";
+import { Navigation, Layout } from "react-mdl";
 
 import Home from "../components/Home"
 import Project from "../components/Project"
@@ -12,6 +12,7 @@ class App extends React.Component {
  render () {
   return (
     <>
+    <Layout>
     <header>
         <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
         <nav class="nav-collapse">
@@ -38,6 +39,7 @@ class App extends React.Component {
     <footer className="footer">
         <p>Wasim Hamid 2020</p>
     </footer>
+   </Layout>
     </>
     );
  }
