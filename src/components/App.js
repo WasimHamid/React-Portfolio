@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navigation, Layout } from "react-mdl";
+import { Navigation, Drawer } from "react-mdl";
 
 import Home from "../components/Home"
 import Project from "../components/Project"
@@ -12,10 +12,9 @@ class App extends React.Component {
  render () {
   return (
     <>
-    <Layout>
     <header>
         <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
-        <nav class="nav-collapse">
+        <Drawer>
             <Navigation>
                 <a href="#home" data-scroll>Home</a>
                 <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
@@ -23,7 +22,7 @@ class App extends React.Component {
                 <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
                 <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>
             </Navigation>
-        </nav>
+        </Drawer>   
     </header>
     <main>
 
@@ -39,7 +38,6 @@ class App extends React.Component {
     <footer className="footer">
         <p>Wasim Hamid 2020</p>
     </footer>
-   </Layout>
     </>
     );
  }
