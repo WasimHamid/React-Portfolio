@@ -16,7 +16,7 @@ class App extends React.Component {
         <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
         <nav class="nav-collapse">
             <Navigation>
-                <a href="#home" data-scroll>Home</a></li>
+                <a href="#home" data-scroll>Home</a>
                 <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
                 <a className="menu-item" href="#About-Me" data-scroll>About Me</a>
                 <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
