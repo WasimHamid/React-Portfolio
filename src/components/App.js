@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Navigation, Drawer } from "react-mdl";
-
 import Home from "../components/Home"
 import Project from "../components/Project"
 import About from "../components/About"
@@ -14,15 +12,11 @@ class App extends React.Component {
     <>
     <header>
         <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
-        <Drawer>
-            <Navigation>
                 <a href="#home" data-scroll>Home</a>
                 <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
                 <a className="menu-item" href="#About-Me" data-scroll>About Me</a>
                 <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
-                <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>
-            </Navigation>
-        </Drawer>   
+                <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>   
     </header>
     <main>
 
