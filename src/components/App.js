@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Navigation } from "react-mdl";
+
 import Home from "../components/Home"
 import Project from "../components/Project"
 import About from "../components/About"
@@ -13,13 +15,13 @@ class App extends React.Component {
     <header>
         <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
         <nav class="nav-collapse">
-            <ul>
-                <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
-                <li class="menu-item"><a className="menu-item" href="#Project-Page" data-scroll>Project Page</a></li>
-                <li class="menu-item"><a className="menu-item" href="#About-Me" data-scroll>About Me</a></li>
-                <li class="menu-item"><a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a></li>
-                <li class="menu-item"><a className="menu-item" href="#Contact" data-scroll>Contact Us</a></li>
-            </ul>
+            <Navigation>
+                <a href="#home" data-scroll>Home</a></li>
+                <a className="menu-item" href="#Project-Page" data-scroll>Project Page</a>
+                <a className="menu-item" href="#About-Me" data-scroll>About Me</a>
+                <a className="menu-item" href="#Hobbies-Page" data-scroll>Hobbies Page</a>
+                <a className="menu-item" href="#Contact" data-scroll>Contact Us</a>
+            </Navigation>
         </nav>
     </header>
     <main>
