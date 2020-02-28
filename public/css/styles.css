@@ -318,6 +318,10 @@ header {
 	margin: 0px;
 }
 
+.contact-text a {
+	color: white;
+}
+
 #Project-Page {
     background: white;
     height: 650px;
