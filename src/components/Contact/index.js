@@ -6,10 +6,34 @@ class Contact extends React.Component {
     <>
         <section id="Contact">
              <div class="contact-text">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                <i class="fa fa-github-square" aria-hidden="true"></i>
-                <i class="fa fa-envelope-square" aria-hidden="true"></i>
-                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                <a
+                    href="http://linkedin.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a
+                    href="https://github.com/WasimHamid"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                <a
+                    href="https://github.com/WasimHamid"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                </a>
+                <a
+                    href="https://github.com/WasimHamid"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <i class="fa fa-phone-square" aria-hidden="true"></i>
+                </a>
             </div>
         </section>
     </>
