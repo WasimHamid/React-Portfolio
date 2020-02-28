@@ -306,6 +306,10 @@ header {
     height: 16em;
 }
 
+.project p {
+	font-size: 9px;
+}
+
 .work-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
