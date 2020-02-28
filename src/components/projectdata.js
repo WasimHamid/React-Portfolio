@@ -13,7 +13,7 @@ url = "http://playermade-wasim.netlify.com/"
             <a href={url}>
                 <Image/>
             </a>
-               <p>Click to view Website</p>
+               <p>(Click image to view Website)</p>
                 <h1>{title}</h1>
                 <span>{service}</span>
             </div> 
