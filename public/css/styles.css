@@ -313,7 +313,9 @@ header {
 }
 
 .contact-text {
-	font-size: 36px;
+	font-size: 50px;
+	color: white;
+	margin: 1px;
 }
 
 #Project-Page {
