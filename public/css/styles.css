@@ -129,7 +129,8 @@ header {
     line-height: 55px;
     padding: 0 20px;
     color: #fff;
-    float: left;
+    margin: 42%;
+    margin-top: -10px;
 }
 
 .mask {
