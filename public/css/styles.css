@@ -313,9 +313,9 @@ header {
 }
 
 .contact-text {
-	font-size: 50px;
+	font-size: 100px;
 	color: white;
-	margin: 1px;
+	margin: 0px;
 }
 
 #Project-Page {
