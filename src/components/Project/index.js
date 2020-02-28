@@ -33,7 +33,7 @@ function Project() {
         <a href="https://github.com/WasimHamid?tab=repositories">
           <img src={avatar} alt="pic" className={css.imgy} />
         </a>
-        <p>Click to view Repos</p>
+        <p>(Click image to view Repos)</p>
         <h1>{name}</h1>
         <h2>{username}</h2>
         <h1>{repos} Repos</h1>
