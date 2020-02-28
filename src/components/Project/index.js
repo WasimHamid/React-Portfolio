@@ -29,7 +29,7 @@ function Project() {
   return (
     <>
       <section id="Project-Page">
-      <div>
+      <div style="margin-top: -95px;">
         <a href="https://github.com/WasimHamid?tab=repositories">
           <img src={avatar} alt="pic" className={css.imgy} />
         </a>
