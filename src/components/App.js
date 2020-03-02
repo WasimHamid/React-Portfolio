@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Home from "../components/Home"
 import Project from "../components/Project"
@@ -6,12 +6,35 @@ import About from "../components/About"
 import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
-class App extends React.Component {
- render () {
+import {NavbarToggler, Collapse, Nav, NavItem, NavLink} from 'reactstrap'
+
+const App = () => {
+    const [isOpen, setIsOpen] = useState(false)
+     const toggle = () => setIsOpen(!isOpen)
   return (
     <>
     <header>
-        <a href="#home" class="logo" data-scroll>Wasim Hamid</a>   
+        <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+            <Nav className='mr-auto' navbar>
+                <NavItem>
+                    <NavLink>Home</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink>Project</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink>About</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink>Hobbies</NavLink>
+                </NavItem>
+                <NavItem>
+                    <NavLink>Contact</NavLink>
+                </NavItem>
+            </Nav>
+        </Collapse>   
     </header>
     <main>
 
@@ -29,7 +52,6 @@ class App extends React.Component {
     </footer>
     </>
     );
- }
 }
 
 export default App;
