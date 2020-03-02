@@ -6,15 +6,15 @@ import About from "../components/About"
 import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
-import {NavbarToggler, Collapse, Nav, NavItem, NavLink} from 'reactstrap'
+import {Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink} from 'reactstrap'
 
 const App = () => {
     const [isOpen, setIsOpen] = useState(false)
      const toggle = () => setIsOpen(!isOpen)
   return (
     <>
-    <header>
-        <a href="#home" class="logo" data-scroll>Wasim Hamid</a>
+    <Navbar>
+        <NavbarBrand href="#home" class="mr-auto" data-scroll>Wasim Hamid</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
             <Nav className='mr-auto' navbar>
@@ -35,7 +35,7 @@ const App = () => {
                 </NavItem>
             </Nav>
         </Collapse>   
-    </header>
+    </Navbar>
     <main>
 
         
