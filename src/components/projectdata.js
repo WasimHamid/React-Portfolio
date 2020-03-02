@@ -14,7 +14,7 @@ url = "http://playermade-wasim.netlify.com/"
                 <Image/>
             </a>
                <p>(Click image to view Website)</p>
-                <h1>{title}</h1>
+                <span>{title}</span>
                 <span>{service}</span>
             </div> 
         </>
