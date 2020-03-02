@@ -36,7 +36,7 @@ function Project() {
         <p>(Click image to view Repos)</p>
         <h1>{name}</h1>
         <span>{username}</span>
-        <span>{repos} Repos</span>
+        <span>-{repos} Repos</span>
       </div>
       <div>
         {projects.map(({url, title, imageSrc,service}, index) => (
