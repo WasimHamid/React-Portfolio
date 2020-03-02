@@ -13,8 +13,8 @@ const App = () => {
      const toggle = () => setIsOpen(!isOpen)
   return (
     <>
-    <Navbar>
-        <NavbarBrand href="#home" class="mr-auto" data-scroll>Wasim Hamid</NavbarBrand>
+    <Navbar className='header'>
+        <NavbarBrand href="#home" class="logo" data-scroll>Wasim Hamid</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
             <Nav className='mr-auto' navbar>
