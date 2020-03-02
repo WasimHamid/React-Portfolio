@@ -39,8 +39,6 @@ function Project() {
         <span>-{repos} Repos</span>
         <br/>
         <br/>
-        <br/>
-        <br/>
       </div>
       <div>
         {projects.map(({url, title, imageSrc,service}, index) => (
