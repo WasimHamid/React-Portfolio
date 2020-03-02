@@ -37,6 +37,10 @@ function Project() {
         <h1>{name}</h1>
         <span>{username}</span>
         <span>-{repos} Repos</span>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
       <div>
         {projects.map(({url, title, imageSrc,service}, index) => (
