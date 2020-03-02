@@ -19,19 +19,19 @@ const App = () => {
         <Collapse isOpen={isOpen} navbar>
             <Nav navbar>
                 <NavItem>
-                    <NavLink>Home</NavLink>
+                    <NavLink href="#home">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink>Project</NavLink>
+                    <NavLink href="#Project-Page">Project</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink>About</NavLink>
+                    <NavLink href="#About-Me">About</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink>Hobbies</NavLink>
+                    <NavLink href="#Hobbies-Page">Hobbies</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink>Contact</NavLink>
+                    <NavLink href="#Contact">Contact</NavLink>
                 </NavItem>
             </Nav>
         </Collapse>   
