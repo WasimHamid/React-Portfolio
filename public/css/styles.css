@@ -62,7 +62,7 @@ h1 {
     margin-bottom: .25em;
 }
 
-header {
+.header {
     background: #000000;
     position: fixed;
     z-index: 3;
