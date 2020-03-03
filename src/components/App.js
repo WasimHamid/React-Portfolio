@@ -1,5 +1,6 @@
 import React from "react";
 
+import Navigation from "../Nav"
 import Home from "../components/Home"
 import Project from "../components/Project"
 import About from "../components/About"
@@ -10,13 +11,12 @@ const App = () => {
   return (
     <>
     <main>
-  
+        <Navigation />
         <Home />
         <Project />
         <About />
         <Hobbies />
         <Contact />
-
     </main>
 
     <footer className="footer">
