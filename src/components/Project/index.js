@@ -36,8 +36,7 @@ function Project() {
         <p>(Click image to view Repos)</p>
         <h1>{name}</h1>
         <span>{username}</span>
-        <span>-{repos} Repos</span>
-        <br/>
+        <span> - {repos} Repos</span>
         <br/>
       </div>
       <div>
