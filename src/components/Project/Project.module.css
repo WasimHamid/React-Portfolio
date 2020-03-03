@@ -4,7 +4,8 @@
   
 @media all and (max-width: 30em) {
   .imgy {
-    width: 50%
+    width: 15em;
+    height: 16em;
   }
 }
 
