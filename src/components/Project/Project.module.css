@@ -1,5 +1,6 @@
 .imgy {
-    width: 18%;
+  width: 15em;
+  height: 16em;
 }
   
 @media all and (max-width: 30em) {
