@@ -1,6 +1,6 @@
 import React from "react";
 
-import Nav from "../Nav"
+import Navigation from "../Nav"
 
 import Pdf from "../Documents/WasimHamidCV.pdf";
 import css from "./Home.module.css";
@@ -10,7 +10,7 @@ class Home extends React.Component {
   return (
     <>
         <section id="home" data-module-id="screen">
-        <Nav/>
+        <Navigation/>
         <div className={css.bannertext}>
         <h2>Junior Developer</h2>
 
