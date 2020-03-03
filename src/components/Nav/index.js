@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import {Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink} from 'reactstrap'
 
-const Nav = () => {
+const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false)
      const toggle = () => setIsOpen(!isOpen)
 
@@ -35,4 +35,4 @@ const Nav = () => {
     )
 }
 
-export default Nav;
+export default Navigation;
