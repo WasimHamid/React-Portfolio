@@ -10,7 +10,7 @@ class About extends React.Component {
                 <div className="border-box">
                     <h1>COLLEGE</h1>
                     <hr />
-                    <p>Identify your individual training needs, goals and pathway for future training through our in-house sports related strength and movement screen</p>
+                    <p>In college, I studied an information technology course - that had some coding involved. I built my first website using HTML, CSS and JavaScript. It didn't look perfect but it was the stepping stone to creating modern looking websites.</p>
                 </div>
 
                 <div className="border-box">
