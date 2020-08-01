@@ -5,6 +5,6 @@ export const projects = [
      //Project Image - Add Your Project Image Here
       imageSrc:"Playermade.png",
       //Project URL - Add Your Project Url Here
-      url:'http://playermade-wasim.netlify.com/'
+      url:'http://playermade.netlify.com/'
      }
 ]
