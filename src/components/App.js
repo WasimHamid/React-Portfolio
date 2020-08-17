@@ -8,21 +8,21 @@ import Hobbies from "../components/Hobbies"
 import Contact from "../components/Contact"
 
 const App = () => {
-  return (
-    <>
-    <main>
-        <Navigation />
-        <Home />
-        <Project />
-        <About />
-        <Hobbies />
-        <Contact />
-    </main>
+    return (
+        <>
+            <main>
+                <Navigation />
+                <Home />
+                <Project />
+                <About />
+                <Hobbies />
+                <Contact />
+            </main>
 
-    <footer className="footer">
-        <p>Wasim Hamid 2020</p>
-    </footer>
-    </>
+            <footer className="footer">
+                <p>Made by Wasim Hamid.</p>
+            </footer>
+        </>
     );
 }
 

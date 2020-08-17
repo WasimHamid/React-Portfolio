@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <>
         <Navbar color="faded" light>
-            <NavbarBrand href="#home" class="logo" data-scroll>Wasim Hamid</NavbarBrand>
+            <NavbarBrand href="#home" className="logo" data-scroll>Wasim Hamid</NavbarBrand>
             <NavbarToggler onClick={toggle} className="mr-2"/>
             <Collapse isOpen={isOpen} navbar>
                 <Nav navbar>

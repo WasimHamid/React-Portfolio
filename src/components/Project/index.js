@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import css from "./Project.module.css";
 
 
-import {  projects  } from "../../constants"
+import { projects } from "../../constants"
 import ProjectData from "../projectdata"
 
 function Project() {
@@ -29,28 +29,30 @@ function Project() {
   return (
     <>
       <section id="Project-Page">
-      <div className={css.position}>
-        <a href="https://github.com/WasimHamid?tab=repositories">
-          <img src={avatar} alt="pic" className={css.imgy} />
-        </a>
-        <p>(Click image to view Repos)</p>
-        <h1>{name}</h1>
-        <span>{username}</span>
-        <span> - {repos} Repos</span>
-        <br/>
-        <br/>
-      </div>
-      <div>
-        {projects.map(({url, title, imageSrc,service}, index) => (
-          <ProjectData 
-          key={index}
-          url={url}
-          title={title}
-          imageSrc={imageSrc}
-          service={service}
-          />
-        ))}
-      </div>
+        <div className={css.flex}>
+          <div className={css.position}>
+            <a href="https://github.com/WasimHamid?tab=repositories">
+              <img src={avatar} alt="pic" className={css.imgy} />
+            </a>
+            <p>(Click image to view Repos)</p>
+            <h1>{name}</h1>
+            <span>{username}</span>
+            <span> - {repos} Repos</span>
+            <br />
+            <br />
+          </div>
+          <div>
+            {projects.map(({ url, title, imageSrc, service }, index) => (
+              <ProjectData
+                key={index}
+                url={url}
+                title={title}
+                imageSrc={imageSrc}
+                service={service}
+              />
+            ))}
+          </div>
+        </div>
       </section>
     </>
   );
