@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div className={css.bannertext}>
         <h2>Junior Developer</h2>
 
-        <p>React | JavaScript | HTML | CSS | Express | MongoDB | React Native</p>
+        <p>React | JavaScript | HTML | CSS | Git | MongoDB | React Native</p>
 
         <div>
           <a
