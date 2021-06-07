@@ -19,7 +19,7 @@ class About extends React.Component {
 
                 <div className="border-box">
                     <h1>APPRENTICESHIP</h1>
-                    <p>I hope to do an apprenticeship on software engineering, I am ready to take my experience to a higher level and tackle big team-based projects. I want to learn and improve my current set of skills and increase my coding-based knowledge of HTML, CSS and JavaScript.</p>
+                    <p>I hope to do an apprenticeship on software engineering, I am ready to take my experience to a higher level and tackle big team-based projects. I want to learn and improve my current set of skills and increase my knowledge of HTML,CSS + JavaScript.</p>
                 </div>
             </div>
         </section>
