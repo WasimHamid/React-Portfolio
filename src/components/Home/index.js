@@ -1,6 +1,6 @@
 import React from "react";
 
-import Pdf from "../Documents/WasimHamidCV.pdf";
+import Pdf from "../Documents/WasimHamid-CV.pdf";
 import css from "./Home.module.css";
 
 class Home extends React.Component {

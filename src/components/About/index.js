@@ -13,13 +13,13 @@ class About extends React.Component {
                 </div>
 
                 <div className="border-box">
-                    <h1>BOOTCAMP</h1>
-                    <p>After trying to get into coding via apprenticeships, I ended up applying for the SchoolOfCode, I was excited to be a part of the bootcamp. I was unaware that there were many different approaches to building websites like using ReactJS.</p>
+                    <h1>FREELANCE</h1> 
+                    <p>I got offered an opportunity to build a website for a small company. It was a great experience to deal with a client and create a custom built website for them. I also learned domain management - to use the client's domain .co.uk with my newly created website.</p>
                 </div>
 
                 <div className="border-box">
-                    <h1>FREELANCE</h1> 
-                    <p>I got offered an opportunity to build a website for a small company. It was a great experience to deal with a client and create a custom built website for them. I also learned domain management - to use the client's domain .co.uk with my newly created website.</p>
+                    <h1>APPRENTICESHIP</h1>
+                    <p>I hope to do an apprenticeship on software engineering, I am ready to take my experience to a higher level and tackle big team-based projects. I am motivated to learn and improve my current set of skills and increase my coding-based knowledge of HTML, CSS and JavaScript.</p>
                 </div>
             </div>
         </section>
